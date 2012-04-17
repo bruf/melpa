@@ -1,3 +1,0 @@
-(findr :repo "milkypostman/jump.el" :fetcher github :files
-       ("findr.el"))
-

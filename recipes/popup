@@ -1,3 +1,0 @@
-(popup :repo "m2ym/popup-el" :fetcher github :files
-       ("popup.el"))
-

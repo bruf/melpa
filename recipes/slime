@@ -1,3 +1,0 @@
-(slime :repo "nablaone/slime" :fetcher github :files
-       ("slime.el"))
-

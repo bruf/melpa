@@ -1,2 +1,0 @@
-(jump :repo "milkypostman/jump.el" :fetcher github)
-
