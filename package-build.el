@@ -228,7 +228,7 @@ seconds; the server cuts off after 10 requests in 20 seconds.")
 
 (defun pb/checkout-github (name config dir)
   "Check package NAME with config CONFIG out of github into DIR."
-  (let* ((url (format "git://github.com/%s.git" (plist-get config :repo))))
+  (let* ((url (format "https://github.com/%s.git" (plist-get config :repo))))
     (pb/checkout-git name (plist-put (copy-sequence config) :url url) dir)))
 
 (defun pb/bzr-repo (dir)

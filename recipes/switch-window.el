@@ -1,0 +1,1 @@
+(switch-window :fetcher github :repo "dimitri/switch-window")
